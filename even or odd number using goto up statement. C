@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int no  = 0;
+	
+web:	
+	printf("\nenter a positive number to cheak wheather is even or odd  =  ");
+	scanf("%d",&no);
+	
+	if(no <= 0)
+	{
+		printf("\n invalid input.");
+		goto web;
+	}
+	
+	if(no  % 2 == 0)
+	{
+		printf("\n %d is even.",no);
+	}
+	else
+	{
+		printf("\n %d is odd.",no);
+	}
+	
+	printf("\n\nthanks");
+	
+	getch();
+	return 0;
+}
