@@ -4,7 +4,8 @@ int main ()
 {
 	int Num1 = 0 , Num2 = 0 ;
 	
-	printf("\n Enter two Integer Number = ") ;    scanf("%d%d",&Num1,&Num2);
+	printf("\n Enter two Integer Number = ") ;    
+        scanf("%d%d",&Num1,&Num2);
 	
 	if( Num1  >  Num2)
 	{
